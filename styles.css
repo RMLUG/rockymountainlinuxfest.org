@@ -119,20 +119,33 @@ section {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
-/* ===== CENTER IMAGE ===== */
-.image-section {
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.sponsor-card {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  background: none;
-  box-shadow: none;
+  margin-bottom: 0;
 }
 
 .center-image {
-  max-width: 400px;
+  max-width: 260px;
   width: 100%;
+  max-height: 160px;
   height: auto;
+  object-fit: contain;
   border-radius: var(--radius);
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .sponsors-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ===== BUTTONS ===== */
