@@ -123,6 +123,52 @@ main {
   text-align: center;
 }
 
+.breadcrumbs {
+  position: static;
+  top: auto;
+  left: auto;
+  transform: none;
+  z-index: auto;
+  width: auto;
+  max-width: none;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0 0 1.5rem;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumbs li + li::before {
+  content: "/";
+  margin-right: 0.5rem;
+  color: rgba(0, 23, 31, 0.55);
+}
+
+.breadcrumbs a {
+  color: var(--dark);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.breadcrumbs a:hover {
+  color: var(--highlight);
+}
+
+.breadcrumbs [aria-current="page"] {
+  color: rgba(0, 23, 31, 0.7);
+}
+
 section {
   background: var(--card-bg);
   border: 1px solid rgba(0, 52, 89, 0.18);
