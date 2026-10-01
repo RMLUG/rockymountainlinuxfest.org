@@ -104,6 +104,16 @@ header h1 {
   opacity: 0.9;
 }
 
+.header-logo {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  max-height: 160px;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto 0.75rem;
+}
+
 /* ===== MAIN CONTENT ===== */
 main {
   display: flex;
@@ -120,13 +130,6 @@ section {
   padding: 1.5rem;
   margin-bottom: 1.5rem;
   box-shadow: 0 4px 12px rgba(0, 52, 89, 0.1);
-}
-
-.image-section {
-  background: transparent;
-  border-color: transparent;
-  box-shadow: none;
-  padding: 0;
 }
 
 .sponsors-grid {
