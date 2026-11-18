@@ -229,6 +229,14 @@ section {
   gap: 1.5rem;
 }
 
+.sponsor-level {
+  margin-bottom: 1.5rem;
+}
+
+.sponsor-level:has(.sponsors-grid:empty) {
+  padding-bottom: 1.5rem;
+}
+
 .sponsor-card {
   display: flex;
   flex-direction: column;
@@ -249,7 +257,7 @@ section {
 }
 
 @media (max-width: 600px) {
-  .sponsors-grid {
+  .sponsor-level > .sponsors-grid {
     grid-template-columns: 1fr;
   }
 }
