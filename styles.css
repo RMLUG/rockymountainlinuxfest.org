@@ -57,7 +57,7 @@ body {
 
 /* ===== NAVIGATION BAR ===== */
 nav {
-  background: var(--card-bg);
+  background: #3b284d;
   border: 1px solid var(--border-color);
   box-shadow: 0 4px 12px var(--shadow-color);
   position: absolute;
