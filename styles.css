@@ -10,7 +10,7 @@
   --alt-highlight: #735d00;
   --dark: var(--plum);
   --text-dark: #241b2a;
-  --background: #ffffff;
+  --background: #241e1e;
   --card-bg: #ffffff;
   --header-text: #ffffff;
   --button-text: #ffffff;
@@ -28,7 +28,7 @@
     --alt-highlight: var(--gold);
     --dark: #000000;
     --text-dark: #f5eff7;
-    --background: #000000;
+    --background: #241e1e;
     --card-bg: #18131d;
     --header-text: #ffffff;
     --button-text: #ffffff;
