@@ -8,7 +8,7 @@
   --accent: var(--plum);
   --highlight: var(--copper);
   --alt-highlight: #735d00;
-  --dark: var(--plum);
+  --dark: #ffffff;
   --text-dark: #241b2a;
   --background: #241e1e;
   --card-bg: #ffffff;
@@ -26,11 +26,11 @@
     --accent: var(--gold);
     --highlight: var(--terracotta);
     --alt-highlight: var(--gold);
-    --dark: #000000;
+    --dark: #ffffff;
     --text-dark: #f5eff7;
     --background: #241e1e;
     --card-bg: #18131d;
-    --header-text: #ffffff;
+    --header-text: #241e1e;
     --button-text: #ffffff;
     --button-hover-text: #100d12;
     --border-color: rgba(232, 196, 79, 0.24);
