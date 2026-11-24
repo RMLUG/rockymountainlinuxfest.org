@@ -26,11 +26,11 @@
     --accent: var(--gold);
     --highlight: var(--terracotta);
     --alt-highlight: var(--gold);
-    --dark: #ffffff;
+    --dark: #18131d;
     --text-dark: #f5eff7;
     --background: #241e1e;
     --card-bg: #18131d;
-    --header-text: #241e1e;
+    --header-text: #ffffff;
     --button-text: #ffffff;
     --button-hover-text: #100d12;
     --border-color: rgba(232, 196, 79, 0.24);
