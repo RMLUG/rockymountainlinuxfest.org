@@ -141,8 +141,8 @@ header h1 {
 .header-logo {
   display: block;
   width: 100%;
-  max-width: 260px;
-  max-height: 160px;
+  max-width: 275px;
+  max-height: 275px;
   height: auto;
   object-fit: contain;
   margin: 0 auto 0.75rem;
